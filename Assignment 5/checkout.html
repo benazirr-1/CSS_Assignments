@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="header">
+
+        <div><img class="logo" src="media/wp.png" alt="logo"></div>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Learn more</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Account</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <div class="container">
+
+        <div class="form-section">
+            <h1>Checkout</h1>
+
+<div id="form1">
+            <h2><span class="button">1</span> Your Basic Information</h2>
+
+<form action="post">
+    <div class="name">
+            <label for="firstName">First Name</label> <br>
+            <input type="text" id="firstName" name="firstName" placeholder="Jane">
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Doe">
+        </div>
+  <div class="email">      
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="janedoe@example.com">
+        </div>
+        </form>
+</div>
+
+<div id="form2">
+            <h2><span class="button">2</span> Your Payment Information</h2>
+            <label for="card">Credit Card</label>
+
+
+        <div class="input-group">
+                <input type="text" placeholder="Card Number">
+                <input type="text" placeholder="MM/YY">
+                <input type="text" placeholder="CVC">
+         </div>
+</div>
+   
+<div id="question" >
+            <button>Buy WP Pusher</button>
+            
+            <p><i class="fa-solid fa-question"></i><span>Need any help? </span> Don't hesitate to <a href="#">contact</a> support!</p>
+            <img class="stripe" src="media/Stripe_(company)-Powered-by-Stripe-Outline-Logo.wine.svg" alt="Stripe Logo">
+        </div>
+
+    </div>
+
+        
+        <div class="pricing-section">
+            <div id="Freelancer">
+                <h2>Freelancer</h2>
+                <p class="price"><sup>$</sup>99<span class="year">/year</span></p>
+                <p><i>Automatically renews after 1 year</i></p>
+                <ul>
+                    <li><i class="fa-regular fa-circle-check"></i>Use on <b>5</b> client sites</li>
+                    <li><i class="fa-regular fa-circle-check"></i>Private repositories</li>
+                    <li><i class="fa-regular fa-circle-check"></i>Email support</li>
+                </ul>
+                <p>Need <b>20</b> client sites? <a href="#" style="color:white; text-decoration: underline;"> <b>Switch to the <i>Agency</i> plan</b></a></p>
+        </div>
+        
+
+        <div class="testimonial">
+                <p> <i> FTP is horrible to deal with. <b>WP Pusher</b> solves that issue, and the customer support is awesome!</i></p>
+                <div class="testimonial-author">
+                    <img src="https://i.pravatar.cc/30" alt="Kirk Beard">
+                    <span>Kirk Beard</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2018 WP Pusher IVS - <span>Terms of Service</span></p>
+      
+    </footer>
+
+</body>
+</html>
